@@ -1,0 +1,109 @@
+/*FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/*reset styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(217, 54%, 11%);
+}
+.img{
+    width: 200px;
+    border-radius: 8px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Rubik', sans-serif;
+}
+.container__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    padding: 25px 0;
+    min-height: 400px;
+    border-radius: 12px;
+    color: hsl(0, 0%, 100%);
+    background: hsl(216, 50%, 16%);
+    box-shadow: 0px 24px 40px 4px rgba(0, 0, 0, 0.389);
+}
+.card__text{
+ width: 80%;   
+ margin: 0 auto;
+}
+.title{
+    display: block;
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+.text__description{
+    font-size: 12px;
+    padding-bottom: 20px;
+    color:hsl(215, 51%, 70%);
+}
+.value{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    font-size: 12px;
+}
+.crypto{
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+.eth{
+    width: 9px;
+    margin-right: 3px;
+}
+.clock{
+    width: 15px;
+    margin-right: 2px;
+}
+.cdate{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.bar{
+    background: hsl(215, 32%, 27%);
+    border: 1px solid hsl(215, 32%, 27%);
+}
+.profile{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.profile__text{
+    color:hsl(215, 51%, 70%);
+    font-size: 10px;
+    padding-left: 10px;
+}
+.name{
+    padding-left: 2px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+/*Foto de <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> en <a href="https://unsplash.com/es/s/fotos/calamar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
+  .avatar{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-image: url("../images/avatar.jpg");
+    background-size: cover;
+    background-position: center;
+  }
